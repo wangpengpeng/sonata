@@ -1,0 +1,8 @@
+imports:
+    - { resource: cache.yml }
+    - { resource: blocks.yml }
+    - { resource: notification.yml }
+    - { resource: admin.yml }
+    - { resource: orm_admin.yml }
+    - { resource: page.yml }
+    - { resource: user.yml }
