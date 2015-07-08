@@ -46,7 +46,8 @@ security:
                 check_path:     /admin/login_check
                 failure_path:   null
             logout:
-                path:           /admin/logout
+                path:   /admin/logout
+                target: /
             anonymous:    true
 
 

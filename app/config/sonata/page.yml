@@ -54,6 +54,7 @@ sonata_admin:
             - bower_components/admin-lte/dist/js/app.min.js
             - bower_components/admin-lte/dist/js/demo.js
             - bower_components/slimScroll/jquery.slimscroll.min.js
+            - bower_components/admin-lte/bootstrap/js/bootstrap.min.js
 
         stylesheets:
             - bundles/sonatacore/vendor/components-font-awesome/css/font-awesome.css
