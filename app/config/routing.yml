@@ -17,3 +17,6 @@ sonata_page_cache:
 _admin:
     resource: routing_admin.yml
     prefix:   /admin
+
+_front:
+    resource: routing_front.yml
