@@ -24,9 +24,16 @@ use Sonata\UserBundle\Entity\BaseUser as BaseUser;
 class User extends BaseUser
 {
     /**
-     * @var integer $id
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     protected $id;
+
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
     /**
      * Get id

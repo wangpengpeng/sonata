@@ -32,7 +32,8 @@
         "symfony-cmf/routing-bundle": "~1.4@dev",
         "sonata-project/page-bundle": "2.4.*@dev",
         "sonata-project/datagrid-bundle": "2.2.*@dev",
-        "sonata-project/user-bundle": "~2.3@dev"
+        "sonata-project/user-bundle": "~2.3@dev",
+        "doctrine/doctrine-fixtures-bundle": "^2.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
