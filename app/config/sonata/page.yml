@@ -55,6 +55,7 @@ sonata_admin:
             - bower_components/admin-lte/dist/js/demo.js
             - bower_components/slimScroll/jquery.slimscroll.min.js
             - bower_components/admin-lte/bootstrap/js/bootstrap.min.js
+            - bower_components/admin-lte/plugins/datepicker/bootstrap-datepicker.js
 
         stylesheets:
             - bundles/sonatacore/vendor/components-font-awesome/css/font-awesome.css
@@ -62,3 +63,4 @@ sonata_admin:
             - bower_components/admin-lte/bootstrap/css/bootstrap.min.css
             - bower_components/admin-lte/dist/css/AdminLTE.min.css
             - bower_components/admin-lte/dist/css/skins/_all-skins.min.css
+            - bower_components/admin-lte/plugins/datepicker/datepicker3.css
