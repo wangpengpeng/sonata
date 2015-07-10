@@ -57,9 +57,13 @@ sonata_admin:
             - bower_components/admin-lte/bootstrap/js/bootstrap.min.js
             - bower_components/admin-lte/plugins/datepicker/bootstrap-datepicker.js
 
+
         stylesheets:
             - bundles/sonatacore/vendor/components-font-awesome/css/font-awesome.css
             - bundles/sonataadmin/vendor/jqueryui/themes/flick/jquery-ui.min.css
+            - bundles/sonataadmin/css/layout.css
+            - bundles/sonataadmin/css/styles.css
+            - bundles/sonataadmin/css/tree.css
             - bower_components/admin-lte/bootstrap/css/bootstrap.min.css
             - bower_components/admin-lte/dist/css/AdminLTE.min.css
             - bower_components/admin-lte/dist/css/skins/_all-skins.min.css
