@@ -7,3 +7,4 @@ app/console doctrine:fixtures:load
 app/console sonata:page:create-site
 cd web
 bower install ../vendor/sonata-project/admin-bundle/bower.json
+bower install  ../vendor/sonata-project/core-bundle/bower.json

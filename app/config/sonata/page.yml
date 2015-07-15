@@ -54,8 +54,10 @@ sonata_admin:
             - bower_components/admin-lte/dist/js/app.min.js
             - bower_components/admin-lte/dist/js/demo.js
             - bower_components/slimScroll/jquery.slimscroll.min.js
+            - bower_components/moment/min/moment.min.js
             - bower_components/admin-lte/bootstrap/js/bootstrap.min.js
-            - bower_components/admin-lte/plugins/datepicker/bootstrap-datepicker.js
+#            - bower_components/admin-lte/plugins/datepicker/bootstrap-datepicker.js
+            - bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js
 
 
         stylesheets:
@@ -68,3 +70,4 @@ sonata_admin:
             - bower_components/admin-lte/dist/css/AdminLTE.min.css
             - bower_components/admin-lte/dist/css/skins/_all-skins.min.css
             - bower_components/admin-lte/plugins/datepicker/datepicker3.css
+            - bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css
