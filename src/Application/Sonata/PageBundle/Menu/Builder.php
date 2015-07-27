@@ -29,7 +29,7 @@ class Builder extends ContainerAware
 
     public function __construct() {
         $this->sharedMenuItems = [
-            'home' => '/home',
+            'home' => '/',
             'about' => '/about',
         ];
     }
