@@ -9,6 +9,38 @@ cmf_routing:
             router.default: 100
 
 sonata_page:
+    templates:
+        default:
+            path: 'ApplicationSonataPageBundle::demo_layout.html.twig'
+            name: 'default'
+            containers:
+                header:
+                    name: Header
+                content_top:
+                    name: Top content
+                content:
+                    name: Main content
+                content_bottom:
+                    name: Bottom content
+                footer:
+                    name: Footer
+            matrix:
+                layout: |
+                    HHHHHHHH
+                    TTTTBBBB
+                    TTTTBBBB
+                    TTTTBBBB
+                    TTTTBBBB
+                    CCCCCCCC
+                    CCCCCCCC
+                    FFFFFFFF
+
+                mapping:
+                    H: header
+                    T: content_top
+                    C: content
+                    B: content_bottom
+                    F: footer
     multisite: host
     use_streamed_response: true # set the value to false in debug mode or if the reverse proxy does not handle streamed response
     ignore_route_patterns:
@@ -56,8 +88,8 @@ sonata_admin:
             - bower_components/slimScroll/jquery.slimscroll.min.js
             - bower_components/moment/min/moment.min.js
             - bower_components/admin-lte/bootstrap/js/bootstrap.min.js
-#            - bower_components/admin-lte/plugins/datepicker/bootstrap-datepicker.js
             - bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js
+
 
 
         stylesheets:
